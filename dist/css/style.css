@@ -321,19 +321,19 @@ body {
   font: 0.875rem "Open Sans", sans-serif;
   color: #444444;
   min-height: 100vh;
-  display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
+  -ms-flex-direction: column;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   background-color: #ffffff;
 }
 
 .main-content {
+  -ms-flex: 1;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
           flex: 1;
 }
 
@@ -495,6 +495,7 @@ img {
 .slider-img {
   border-radius: 60px;
   margin-bottom: 3.125rem;
+  margin-left: 4.75rem;
 }
 
 .mydots {
@@ -642,7 +643,7 @@ img {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  margin-right: 3.125rem;
+  margin-right: 0;
   text-align: center;
 }
 
@@ -659,7 +660,6 @@ img {
 }
 
 .services-box__content {
-  max-width: 17.5rem;
   text-align: center;
   margin-bottom: 6.25rem;
   color: #cccccc;
@@ -697,13 +697,12 @@ img {
 }
 
 .photo__img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .gallery-content {
   border: 1px solid #f4f5f9;
   background-color: #f4f5f9;
-  max-width: 300px;
   -webkit-box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
 }
@@ -755,16 +754,16 @@ img {
   color: #999999;
   text-transform: uppercase;
   font-size: 0.875rem;
-  margin-left: 3.4375rem;
-  margin-bottom: 3.125rem;
-  border-top: 2px solid transparent;
+  margin-left: 0;
+  margin-bottom: 0.625rem;
+  border-top: none;
 }
 
 .nav__item1:hover {
   color: #21b0fe;
-  border-bottom: 1px solid #21b0fe;
-  padding-bottom: 10px;
-  margin-bottom: -10px;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .portfolio__input {
@@ -786,12 +785,12 @@ img {
 }
 
 #flavor-nav {
-  display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
+  -ms-flex-direction: column;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   color: #999999;
   text-transform: uppercase;
@@ -799,14 +798,12 @@ img {
   margin-left: 3.4375rem;
   margin-bottom: 3.125rem;
   border-top: 2px solid transparent;
-  text-align: center;
 }
 
 #flavor-nav a:hover, #flavor-nav a.current {
-  color: #21b0fe;
-  border-bottom: 1px solid #21b0fe;
-  padding-bottom: 10px;
-  margin-bottom: -10px;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .brands-content {
@@ -953,12 +950,12 @@ label {
 }
 
 .right-box__input {
-  display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
+  -ms-flex-direction: row;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
   width: 200px;
   margin-bottom: 20px;
@@ -1058,12 +1055,12 @@ label {
     border-bottom: 0;
   }
   .right-box__input {
-    display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
+    -ms-flex-direction: row;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
             flex-direction: row;
     width: 320px;
     margin-bottom: 20px;
@@ -1117,8 +1114,8 @@ label {
     margin-top: 5rem;
   }
   .lab {
-    display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
   }
   .nav2 {
@@ -1136,11 +1133,11 @@ label {
     padding: 60px 10px;
   }
   .footer-title {
-    display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
+    -ms-flex-pack: justify;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .brands-box {
@@ -1177,12 +1174,37 @@ label {
     border-top: 2px solid transparent;
     text-align: center;
   }
+  .nav__item1:hover {
+    color: #21b0fe;
+    border-bottom: 1px solid #21b0fe;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+  }
+  .nav__item1 {
+    color: #999999;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    margin-left: 3.4375rem;
+    margin-bottom: 3.125rem;
+    border-top: 2px solid transparent;
+  }
+  .slider-img {
+    margin-left: -4.1875rem;
+    border-radius: 60px;
+    margin-bottom: 3.125rem;
+  }
   label {
     margin-bottom: 20px;
     font-size: 13px;
   }
   input[type='text'] {
     padding: 10px;
+  }
+  #flavor-nav a:hover, #flavor-nav a.current {
+    color: #21b0fe;
+    border-bottom: 1px solid #21b0fe;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
   }
 }
 

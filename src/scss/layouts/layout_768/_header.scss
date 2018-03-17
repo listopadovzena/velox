@@ -125,3 +125,27 @@ input[type='text'] {
   border-top: 2px solid transparent;
   text-align: center;
 }
+
+.nav__item1:hover{
+  color: $linkblue;
+  border-bottom: 1px solid $linkblue;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+
+}
+
+.nav__item1{
+  color: $graylink;
+  text-transform: uppercase;
+  font-size: rem(14px);
+  margin-left: rem(55px);
+  margin-bottom: rem(50px);
+  border-top: 2px solid transparent;
+
+}
+
+.slider-img{
+  margin-left: rem(-67px);
+  border-radius: 60px;
+  margin-bottom: rem(50px);
+}

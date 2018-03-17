@@ -55,7 +55,7 @@
   @include e(item) {
     @include display(flex);
     @include flex-direction(column);
-    margin-right: rem(50px);
+    margin-right: 0;
     text-align: center;
 
 
@@ -79,7 +79,7 @@
 
 
   @include e(content) {
-max-width:rem(280px);
+
     text-align: center;
 margin-bottom: rem(100px);
     color: $grayContent;

@@ -14,12 +14,12 @@
   width: 600px;
 }
 .photo__img{
-  max-width: 80%;
+  max-width: 100%;
 }
 .gallery-content{
 border: 1px solid $grayborder;
   background-color: $grayborder;
-max-width: 300px;
+
   box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
   @include e(title){
     font-size: rem(15px);
@@ -69,17 +69,16 @@ max-width: 300px;
   color: $graylink;
   text-transform: uppercase;
   font-size: rem(14px);
-  margin-left: rem(55px);
-  margin-bottom: rem(50px);
-  border-top: 2px solid transparent;
+  margin-left: 0;
+  margin-bottom: rem(10px);
+  border-top: none;
 
 }
 .nav__item1:hover{
   color: $linkblue;
-  border-bottom: 1px solid $linkblue;
-  padding-bottom: 10px;
-  margin-bottom: -10px;
-
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .portfolio__input{
   margin-top: rem(60px);
@@ -108,12 +107,11 @@ max-width: 300px;
   margin-left: rem(55px);
   margin-bottom: rem(50px);
   border-top: 2px solid transparent;
-  text-align: center;
+
 }
 
 #flavor-nav a:hover, #flavor-nav a.current {
-  color: $linkblue;
-  border-bottom: 1px solid $linkblue;
-  padding-bottom: 10px;
-  margin-bottom: -10px;
+ border: none;
+  margin: 0;
+  padding: 0;
 }
