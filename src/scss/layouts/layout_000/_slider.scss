@@ -18,7 +18,10 @@ margin-bottom: rem(50px);
   margin-left: rem(76px);
 
 }
-
+.center img{
+  opacity: 0.5;
+  transition: all 300ms ease;
+}
 .mydots {
   position: absolute;
   bottom: -240px;

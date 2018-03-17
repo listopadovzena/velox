@@ -498,6 +498,12 @@ img {
   margin-left: 4.75rem;
 }
 
+.center img {
+  opacity: 0.5;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 .mydots {
   position: absolute;
   bottom: -240px;
@@ -798,12 +804,6 @@ img {
   margin-left: 3.4375rem;
   margin-bottom: 3.125rem;
   border-top: 2px solid transparent;
-}
-
-#flavor-nav a:hover, #flavor-nav a.current {
-  border: none;
-  margin: 0;
-  padding: 0;
 }
 
 .brands-content {
