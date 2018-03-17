@@ -1,0 +1,95 @@
+.bottom-dotted {
+  color: $lightBlack;
+  text-align: center;
+
+  text-transform: uppercase;
+  padding-bottom: rem(21px);
+  margin-bottom: rem(15px);
+  position: relative;
+}
+.bottom-dotted__blue {
+  color: $lightBlack;
+  text-align: center;
+  margin-top: rem(74px);
+  text-transform: uppercase;
+  padding-bottom: rem(21px);
+  margin-bottom: rem(95px);
+  position: relative;
+  font-family: $font;
+  font-weight: 600;
+  font-size: rem(30px);
+}
+.bottom-dotted__blue::after {
+  content: '';
+  width: 145px;
+  height: 4px;
+
+  background: $blue;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.bottom-dotted::after {
+  content: '';
+  width: 42px;
+  height: 1px;
+
+  background: $lineGray;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+
+
+
+.services-box {
+
+  @include display(flex);
+  @include justify-content(space-between);
+  @include flex-direction(column);
+
+
+  @include e(item) {
+    @include display(flex);
+    @include flex-direction(column);
+    margin-right: rem(50px);
+    text-align: center;
+
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @include e(title) {
+    font-size: rem(15px);
+    font-family: $fonts;
+    padding-top: rem(5px);
+    text-transform: uppercase;
+    color: $lightBlack;
+
+
+
+  }
+
+
+
+
+  @include e(content) {
+max-width:rem(280px);
+    text-align: center;
+margin-bottom: rem(100px);
+    color: $grayContent;
+    font-size: rem(12px);
+    font-family: $fontFamily;
+  }
+  @include e(img) {
+    order: -1;
+
+  }
+
+
+}

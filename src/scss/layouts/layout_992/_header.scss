@@ -1,0 +1,20 @@
+.top-header {
+  @include justify-content(space-between);
+  @include flex-direction(row);
+}
+.logo-box{
+  margin-bottom: 0;
+}
+
+.nav {
+  @include e(item) {
+    font-size: rem(14px);
+    font-family:$fontFamily ;
+background: none;
+    color: $gray;
+    &:hover {
+
+
+    }
+  }
+}

@@ -1,0 +1,160 @@
+.contact{
+  background: $bgblack;
+  color: $white;
+
+}
+
+.contact-box{
+  @include display (flex);
+  margin-top: rem(80px);
+}
+.left-box{
+  margin-bottom: rem(100px);
+  @include e(contact){
+    font-size: rem(25px);
+    font-family: $font;
+    font-weight: 600;
+    margin-bottom: rem(130px);
+  }
+  @include e(our){
+    font-size: rem(20px);
+    font-family: $fontFamily;
+    margin-bottom: rem(30px);
+  }
+  @include e(house){
+    font-size: rem(15px);
+    font-family: $fontFamily;
+    color: $graylink;
+
+  }
+  @include e(call) {
+    margin-top: rem(65px);
+    font-size: rem(20px);
+    font-family: $fontFamily;
+    margin-bottom: rem(30px);
+  }
+  @include e(number){
+    font-size: rem(15px);
+    font-family: $fontFamily;
+    color: $graylink;
+  }
+  @include e(mail){
+    margin-top: rem(65px);
+    font-size: rem(20px);
+    font-family: $fontFamily;
+    margin-bottom: rem(30px);
+  }
+  @include e(email){
+    font-size: rem(15px);
+    font-family: $fontFamily;
+    color: $graylink;
+    text-decoration: none;
+
+  }
+}
+.right-box{
+
+}
+
+.nav__item2{
+  text-decoration: none;
+  color: $white;
+  margin-left: rem(35px);
+  font-size: rem(18px);
+  font-family: $fontFamily;
+
+
+}
+
+
+.nav2{
+  margin-bottom: rem(110px);
+  margin-left: 360px;
+}
+
+
+
+.form-box {
+  padding: 0 25px;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+
+input[type='text'] {
+  padding: 60px 10px;
+}
+
+
+
+
+.right-box__input{
+@include  display (flex);
+  @include flex-direction (row);
+  width: 320px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b4c1c4;
+  margin-top: 30px;
+}
+
+.label-control1{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: $fontFamily;
+
+}
+.label-control{
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: $fontFamily;
+}
+
+.right-box__submit{
+
+  border:1px solid $blue;
+  background: $blue;
+  font-size: rem(20px);
+  color: $white;
+  font-family: $fontFamily;
+  border-radius: 45px;
+  padding: 20px 55px;
+  margin-bottom: rem(150px);
+  box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+.scrollup{
+  width:81px;
+  height:81px;
+
+  position:fixed;
+  bottom:45px;
+  right:47%;
+  transform: translateX(-50%);
+  display: none;
+  text-indent:-9999px;
+  background:url(#{$imgPath}arrow.png) no-repeat 0 center;
+}
+
+
+label {
+  display: inline-block;
+
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+input[type='text'] {
+  padding: 60px 10px;
+}
+.right-box__input{
+  width: 320px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b4c1c4;
+  margin-top: 30px;
+}
+.right-box__input1{
+
+  width: 100%;
+  border-bottom: 1px solid #b4c1c4;
+  margin-bottom: rem(15px);
+}
+

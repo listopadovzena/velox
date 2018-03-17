@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$fontPath}icomoon.eot?dh31h5');
+  src:  url('#{$fontPath}icomoon.eot?dh31h5#iefix') format('embedded-opentype'),
+  url('#{$fontPath}icomoon.ttf?dh31h5') format('truetype'),
+  url('#{$fontPath}icomoon.woff?dh31h5') format('woff'),
+  url('#{$fontPath}icomoon.svg?dh31h5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}html {
+  font-size: $baseFontSize;
+}
+body {
+  font: rem(14px) $fontFamily;
+  color: $color;
+  min-height: 100vh;
+  @include display (flex);
+  @include flex-direction (column);
+  background-color: $white;
+}
+.main-content {
+  @include flex (1);
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 10px;
+}
+.headtitle {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+img {
+  vertical-align: top;
+}
+
+
+
+
+
+

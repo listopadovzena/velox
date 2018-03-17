@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+// Default Variables
+
+// Slick icon entity codes outputs the following
+// "\2190" outputs ascii character "←"
+// "\2192" outputs ascii character "→"
+
+
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "slick" !default;
+
+
+
+$slick-prev-character:"<" !default;
+
+
+
+$slick-next-character: ">" !default;
+
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+
+
+
+
+
+
+
+/* Arrows */
+
+
+.slick-next{
+  position: absolute;
+  display: block;
+
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+
+  color: black;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  width: 0;
+  height: 0;
+
+  outline: none;
+
+  &:hover, &:focus {
+    outline: none;
+
+
+    &:before {
+      color: $lightBlack;
+    }
+  }
+  &.slick-disabled:before {
+    opacity: $slick-opacity-not-active;
+  }
+  &:before {
+
+    position: absolute;
+   right: -10px;
+    top:134px;
+    font-size: 50px;
+    opacity: $slick-opacity-default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #777777;
+  }
+
+}
+.slick-prev{
+    position: absolute;
+    display: block;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    color: black;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    width: 0;
+    height: 0;
+
+
+
+    outline: none;
+    &:hover, &:focus {
+        outline: none;
+
+
+        &:before {
+            color: $lightBlack;
+        }
+    }
+    &.slick-disabled:before {
+        opacity: $slick-opacity-not-active;
+    }
+    &:before {
+
+        font-size: 50px;
+
+      position: absolute;
+      left: -10px;
+      top:233px;
+        opacity: $slick-opacity-default;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #777777;
+    }
+
+}
+
+.slick-prev {
+  position: absolute;
+  z-index: 9999;
+
+
+  height: 200px;
+  [dir="rtl"] & {
+    left: auto;
+    right: 0;
+  }
+  &:before {
+    content: $slick-prev-character;
+    [dir="rtl"] & {
+      content: $slick-next-character;
+    }
+  }
+}
+
+.slick-next {
+
+  right: 0px;
+  [dir="rtl"] & {
+    left: -25px;
+    right: auto;
+  }
+    &:before {
+        content: $slick-next-character;
+        [dir="rtl"] & {
+            content: $slick-prev-character;
+        }
+    }
+}
+
+
+
+

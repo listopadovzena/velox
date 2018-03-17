@@ -1,0 +1,93 @@
+.slider-content {
+  position: relative;
+  text-align: center;
+
+  figcaption {
+    position: absolute;
+    color: $white;
+    top: 0;
+    text-align: center;
+    padding: rem(10px) 0;
+  }
+
+}
+
+.slider-img{
+  border-radius: 60px;
+margin-bottom: rem(50px);
+}
+
+.mydots {
+  position: absolute;
+  bottom: -240px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+}
+.mydots li {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  border-radius: 14px;
+  border: 1px solid $lightBlack;
+  background: white;
+}
+.mydots li.slick-active {
+  background: $lightBlack;
+}
+.sl{
+  background: $graybg;
+}
+
+.sl-title{
+text-align: center;
+font-family: $font;
+font-weight: 600;
+text-transform: uppercase;
+font-size: rem(32px);
+margin-top: rem(40px);
+position: relative;
+padding-bottom: rem(30px);
+margin-bottom: rem(60px);
+}
+.sl-title::after {
+  content: '';
+  width: 145px;
+  height: 4px;
+
+  background: $blue;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+
+.sl-content{
+  text-align: center;
+  max-width: 350px;
+  margin-bottom: rem(45px);
+  margin-left: 0px;
+font-size: rem(20px);
+  color: $lightBlack;
+  font-family: $font;
+}
+.sl-box{
+
+
+  margin-bottom: rem(150px);
+}
+.slider{
+  text-align: center;
+}
+
+.sl-link{
+  color: $lightBlack;
+
+}
+
+.sl-text{
+  text-align: center;
+}

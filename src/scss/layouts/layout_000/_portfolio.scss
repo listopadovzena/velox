@@ -1,0 +1,119 @@
+.portfolio-gallery {
+  @include display (flex);
+  @include flex-wrap (wrap);
+  @include justify-content (space-between);
+  transition: all .2s;
+  margin-bottom: rem(15px);
+}
+.photo {
+  padding: 5px;
+  width: 33.33333%;
+
+}
+.double {
+  width: 600px;
+}
+.photo__img{
+  max-width: 80%;
+}
+.gallery-content{
+border: 1px solid $grayborder;
+  background-color: $grayborder;
+max-width: 300px;
+  box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+  @include e(title){
+    font-size: rem(15px);
+    color:$graylink;
+    font-family: $fontFamily;
+    padding: rem(30px);
+
+  }
+}
+
+.gallery-link{
+  text-decoration: none;
+
+}
+
+
+.portfolio{
+  background: $graybg;
+}
+.portfolio-title{
+  text-align: center;
+  font-family: $font;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: rem(32px);
+  margin-top: rem(40px);
+  position: relative;
+  padding-bottom: rem(30px);
+  margin-bottom: rem(60px);
+}
+.portfolio-title::after {
+  content: '';
+  width: 145px;
+  height: 4px;
+
+  background: $blue;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.portfolio__tab{
+  text-align: center;
+
+}
+.nav__item1{
+  color: $graylink;
+  text-transform: uppercase;
+  font-size: rem(14px);
+  margin-left: rem(55px);
+  margin-bottom: rem(50px);
+  border-top: 2px solid transparent;
+
+}
+.nav__item1:hover{
+  color: $linkblue;
+  border-bottom: 1px solid $linkblue;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+
+}
+.portfolio__input{
+  margin-top: rem(60px);
+  border:1px solid $blue;
+  background: $blue;
+  font-size: rem(20px);
+  color: $white;
+  font-family: $fontFamily;
+  border-radius: 45px;
+  padding: 25px 65px;
+  margin-bottom: rem(80px);
+  box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+
+
+}
+.pi{
+  text-align: center;
+}
+
+#flavor-nav {
+ @include display (flex);
+  @include flex-direction (column);
+  color: $graylink;
+  text-transform: uppercase;
+  font-size: rem(14px);
+  margin-left: rem(55px);
+  margin-bottom: rem(50px);
+  border-top: 2px solid transparent;
+  text-align: center;
+}
+
+#flavor-nav a:hover, #flavor-nav a.current {
+  color: $linkblue;
+  border-bottom: 1px solid $linkblue;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
