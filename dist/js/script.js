@@ -69,7 +69,7 @@ $('#slider').slick({
     centerMode: true,
     centerPadding: '150px',
     slidesToShow: 2,
-    slidesToShowClass: 'center',
+    autoplay:true,
     dots:true,
     dotsClass: 'mydots',
 

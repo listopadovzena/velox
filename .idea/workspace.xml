@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d959b4b-b736-4e58-80b6-be2df0b6970a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" afterPath="$PROJECT_DIR$/dist/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layouts/layout_000/_portfolio.scss" afterPath="$PROJECT_DIR$/src/scss/layouts/layout_000/_portfolio.scss" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" afterPath="$PROJECT_DIR$/dist/js/script.js" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" afterPath="$PROJECT_DIR$/src/js/script.js" />
       <change beforePath="$PROJECT_DIR$/src/scss/layouts/layout_000/_slider.scss" afterPath="$PROJECT_DIR$/src/scss/layouts/layout_000/_slider.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layouts/layout_768/_header.scss" afterPath="$PROJECT_DIR$/src/scss/layouts/layout_768/_header.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,28 @@
       <file leaf-file-name="_slider.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/layouts/layout_000/_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="204" column="24" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -34,6 +55,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/src/scss/layouts/layout_000/_slider.scss" />
       </list>
     </option>
@@ -56,7 +78,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="826" />
@@ -87,6 +109,12 @@
               <item name="velox1" type="b2602c69:ProjectViewProjectNode" />
               <item name="velox1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="velox1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="velox1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="velox1" type="b2602c69:ProjectViewProjectNode" />
@@ -149,15 +177,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521319181945</updated>
-      <workItem from="1521319183217" duration="376000" />
+      <workItem from="1521319183217" duration="1440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376000" />
+    <option name="totallyTimeSpent" value="1440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="826" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -192,10 +220,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="204" column="24" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/layouts/layout_000/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

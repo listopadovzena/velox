@@ -498,7 +498,11 @@ img {
   margin-left: 4.75rem;
 }
 
-.center img {
+.slick-center {
+  opacity: 1;
+}
+
+figure {
   opacity: 0.5;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
