@@ -41,13 +41,15 @@ $slick-opacity-not-active: 0.25 !default;
   cursor: pointer;
 
   color: black;
-  top: 50%;
+  top: 200px;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   padding: 0;
   width: 0;
   height: 0;
+
+  border: 30px solid transparent;
 
   outline: none;
 
@@ -56,7 +58,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 
     &:before {
-      color: $lightBlack;
+      color:black;
     }
   }
   &.slick-disabled:before {
@@ -65,8 +67,8 @@ $slick-opacity-not-active: 0.25 !default;
   &:before {
 
     position: absolute;
-   right: -10px;
-    top:134px;
+   right: -20px;
+    top:-3px;
     font-size: 50px;
     opacity: $slick-opacity-default;
     -webkit-font-smoothing: antialiased;
@@ -82,7 +84,7 @@ $slick-opacity-not-active: 0.25 !default;
     font-size: 0px;
     cursor: pointer;
     color: black;
-    top: 50%;
+    top: 200px;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -91,6 +93,7 @@ $slick-opacity-not-active: 0.25 !default;
     height: 0;
 
 
+  border: 30px solid transparent;
 
     outline: none;
     &:hover, &:focus {
@@ -98,7 +101,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 
         &:before {
-            color: $lightBlack;
+            color: black;
         }
     }
     &.slick-disabled:before {
@@ -109,8 +112,8 @@ $slick-opacity-not-active: 0.25 !default;
         font-size: 50px;
 
       position: absolute;
-      left: -10px;
-      top:233px;
+      left: -20px;
+      top:-3px;
         opacity: $slick-opacity-default;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -124,7 +127,7 @@ $slick-opacity-not-active: 0.25 !default;
   z-index: 9999;
 
 
-  height: 200px;
+  height: 0px;
   [dir="rtl"] & {
     left: auto;
     right: 0;
